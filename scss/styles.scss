@@ -1,0 +1,56 @@
+$breakpoints: ( phone: 640px,
+                tablet: 768px,
+                desktop: 1024px,
+                bigscreen: 1440px) !default;
+
+@include media(">phone", "<tablet"){
+
+}
+@include media(">tablet", "<950px"){
+
+}
+@include media(">desktop", "<1440px"){
+
+}
+@include media(">bigscreen", "<2100px"){
+
+}
+
+html{}
+h1{}
+ul{}
+ul>li{}
+ul>li>a{}
+/* Shadow DOM Root */
+  body{}
+    div{} /* first div, needs renamed */
+      span.title{}
+      input[type="text"]{}
+      button{}
+      div.banner{}
+        img{}
+        div.overlay{}
+          .overlay>h1{}
+          .overlay>p{}
+    nav{}
+      nav>ul{}
+      nav>ul>li{}
+      nav>ul>li>a{}
+    div.view{}
+      aside{}
+        aside>h1{}
+        aside>ul{}
+        aside>ul>li{}
+        aside>ul>li>a{}
+      section{}
+        section>ul{}
+        section>ul>li{}
+        section>ul>li>notecard{}
+        section>nav{}
+          section>nav>ul{}
+          section>nav>ul>li{}
+          section>nav>ul>li>a{}
+    footer{}
+      footer>img{}
+      footer>span{}
+      footer>span>a{}
