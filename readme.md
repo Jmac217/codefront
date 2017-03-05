@@ -1,27 +1,26 @@
-xs < = 768
-sm > 768 < 992
-md > = 992
-lg > 1200
+## Codefront.Design
+CSS Layout Data Outline
 
-margins
-Extra Small none
-Mobile none
-Tablet none
-extra small 1 64
-extra small 2 128
-sm 1 168
-sm 2 171
-medium 1 208
-medium 2 288
-large 1 328
-large 2 448
-extra large 768
+###### Screen Scaling
+* xs > 540px
+* sm > 768px
+* md > 992px
+* lg > 1200px
+* xl > 2100px
 
-breakpoints
-Extra Small 540
-mobile 640
-tablet 768
-small screen 1024
-medium screen 1280
-Large screen 1440
-Extra Large 2100
+###### Margins
+* xs: 0
+* Mobile: 0
+* Tablet: 0
+* lg: 64px
+* md: 128px
+* sm: 168px
+
+###### Breakpoints
+* xs: 540px
+* Mobile 640px
+* Tablet 768px
+* sm: 1024px
+* md: 1280px
+* lg: 1440px
+* xl: 2100px
